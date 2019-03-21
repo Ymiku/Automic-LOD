@@ -23,6 +23,10 @@ public static class MathExtra {
 	{
 		return MathExtra.fastSqrt(Mathf.Pow(v.x,2f)+Mathf.Pow(v.y,2f));
 	}
+	public static float GetV2L(Vector2 v)
+	{
+		return MathExtra.fastSqrt(Mathf.Pow(v.x,2f)+Mathf.Pow(v.y,2f)+Mathf.Pow(v.z,2f));
+	}
 	public static float fastSqrt(float x)
 	{
 		return 1f / MathExtra.InverseSqrtFast (x);
