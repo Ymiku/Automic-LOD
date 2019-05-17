@@ -16,7 +16,7 @@ namespace PolyReduction{
 		public void ComputeNormal()
 		{
 			Vector3 p1 = vertex[1].pos-vertex[0].pos;
-			Vector3 p2 = vertex[1].pos-vertex[0].pos;
+			Vector3 p2 = vertex[2].pos-vertex[0].pos;
 			normal = Vector3.Cross (p1,p2).normalized;
 		}
 		public bool HasVertex(PRVertex v)
