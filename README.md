@@ -19,7 +19,7 @@ http://dev.gameres.com/Program/Visual/3D/PolygonReduction.pdf english
 
 此工程只是为了理解论文实现，仅适用于学习，还不具备实用性
 
-目前默认位置相同，即为一个顶点
+目前的实现默认位置相同即为同一个顶点
 
 如果存在相同位置有多个顶点的情况（unity默认几何体在边缘存在这种情况），还需特殊处理
 
